@@ -1,0 +1,47 @@
+  ul {
+      list-style-type: none;
+      text-align: center
+    }
+
+    li {
+      background-color: #ABEBC6 ;
+      border: #2E86C1  2px solid;
+      display: inline ;
+      margin-right: 10px;
+	  padding-left: 8px;
+	  line-height: 2;
+    }
+
+    a {
+
+      color:black;
+      padding: 0 18px;
+      text-decoration: none;
+	  font-weight: bold;
+    }
+
+    a:hover {
+      background-color: ;
+      color: red;
+    }
+	.wrapper {
+  display: blue;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 300px 300px;
+   margin-right: 5px;
+   border-collapse: collapse;
+  border: 6px solid purple;
+  }
+ table, td {
+        border:3px solid black;
+		border-color: #2E86C1;
+      }
+      table {
+        width: 100%;
+      }
+      td {
+        padding:1px;
+		text-align: center
+		
+      	  }
